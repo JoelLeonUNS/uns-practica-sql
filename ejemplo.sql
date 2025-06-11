@@ -4,9 +4,9 @@ USE UNS;
 DROP TABLE IF EXISTS cliente;
 CREATE TABLE cliente 
  (id                         VARCHAR(3)  NOT NULL,
-  nombre                     VARCHAR(20) NOT NULL,
-  telefono                   VARCHAR(20) NOT NULL,
-  direccion                  VARCHAR(20),
+  nombre                     VARCHAR(50) NOT NULL,
+  telefono                   VARCHAR(50) NOT NULL,
+  direccion                  VARCHAR(50),
   ciudad                     VARCHAR(20),
   provincia                  VARCHAR(15),
   pais                       VARCHAR(20),
