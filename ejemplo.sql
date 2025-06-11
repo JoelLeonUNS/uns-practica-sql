@@ -16,7 +16,6 @@ CREATE TABLE cliente
   region_id                  VARCHAR(3),
   comentarios                VARCHAR(255),
   CONSTRAINT cliente_id_pk PRIMARY KEY (id),
-  CONSTRAINT cliente_historial_crediticio_ck
  );
 
 
